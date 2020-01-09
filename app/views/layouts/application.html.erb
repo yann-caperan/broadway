@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link href="/assets/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <title>Broadway</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>
